@@ -1,0 +1,11 @@
+#main-container{
+  margin-top: 40px;
+}
+
+.navbar #current-player{
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center;
+}

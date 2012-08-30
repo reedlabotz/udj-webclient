@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>UDJ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/font-awesome-ie7.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <script src="js/lib/underscore-min.js"></script>
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/jquery-1.8.0.min.js"></script>
+  <script src="js/lib/jquery.cookie.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript">
+    /*
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-146052-10']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    */
+  </script>
+</head>
+<body id="udjapp">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">UDJ</a>
+
+        <div class="btn-group" id="current-player">
+          <a class="btn btn-info" href="#">Current Player</a>
+          <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+        </div>
+
+        <ul class="nav pull-right">
+          <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="main-container">
+    <div class="row">
+      <div class="span3">
+        <h3>Queue</h3>
+      </div>
+      <div class="span9">
+        <h3>Library</h3>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
