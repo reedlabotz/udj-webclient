@@ -17,7 +17,7 @@ A simple python server running on `http://localhost:8000`
 rake server
 ```
 
-Clean up files
+Compile
 ```bash
-rake clean
+rake compile
 ```
